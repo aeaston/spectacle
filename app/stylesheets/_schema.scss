@@ -83,28 +83,28 @@ table.table {
 
   // Response headers
   th.swagger-response-header-name {
-    @include table-header($msg-swagger-response-header-name)
+    @include table-header($msg-swagger-response-header-name);
   }
 
   th.swagger-response-header-description {
-    @include table-header($msg-swagger-response-header-description)
+    @include table-header($msg-swagger-response-header-description);
   }
 
   th.swagger-response-header-data-type {
-    @include table-header($msg-swagger-response-header-data-type)
+    @include table-header($msg-swagger-response-header-data-type);
   }
 
   // Response table
   th.swagger-response-code {
-    @include table-header($msg-swagger-response-code)
+    @include table-header($msg-swagger-response-code);
   }
 
   th.swagger-response-description {
-    @include table-header($msg-swagger-response-description)
+    @include table-header($msg-swagger-response-description);
   }
 
   th.swagger-response-schema {
-    @include table-header($msg-swagger-response-schema)
+    @include table-header($msg-swagger-response-schema);
   }
 }
 .swagger-response-name-value {
@@ -230,15 +230,15 @@ table.table {
 }
 
 .json-property-discriminator {
-  @include named-label($msg-json-discriminator)
+  @include named-label($msg-json-discriminator);
 }
 
 .json-property-required {
-  @include named-label($msg-json-required)
+  @include named-label($msg-json-required);
 }
 
 .json-property-read-only {
-  @include named-label($msg-json-read-only)
+  @include named-label($msg-json-read-only);
 }
 
 
