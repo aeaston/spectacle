@@ -322,7 +322,7 @@
   }
 
   @if $margin-grid {
-    @include xy-margin-grid-classes(top bottom, true, '.grid-margin-y')
+    @include xy-margin-grid-classes(top bottom, true, '.grid-margin-y');
   }
 }
 
@@ -450,6 +450,6 @@
   }
 
   @if ($frame-grid) {
-    @include xy-frame-grid-classes($vertical-grid)
+    @include xy-frame-grid-classes($vertical-grid);
   }
 }

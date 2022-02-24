@@ -122,11 +122,11 @@ $prototype-spacers-count: 3 !default;
 
     // Vertical Axes
     .margin-vertical-#{$spacer} {
-      @include margin($spacer, null, $spacer, null)
+      @include margin($spacer, null, $spacer, null);
     }
 
     .padding-vertical-#{$spacer} {
-      @include padding($spacer, null, $spacer, null)
+      @include padding($spacer, null, $spacer, null);
     }
 
     @if ($prototype-spacing-breakpoints) {
@@ -190,11 +190,11 @@ $prototype-spacers-count: 3 !default;
 
             // Vertical Axes
             .#{$size}-margin-vertical-#{$spacer} {
-              @include margin($spacer, null, $spacer, null)
+              @include margin($spacer, null, $spacer, null);
             }
 
             .#{$size}-padding-vertical-#{$spacer} {
-              @include padding($spacer, null, $spacer, null)
+              @include padding($spacer, null, $spacer, null);
             }
           }
         }
